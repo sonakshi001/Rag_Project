@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run RAG main",
+			"type": "shell",
+			"command": "d:\\RagProject\\.venv\\Scripts\\python.exe",
+			"args": [
+				"d:\\RagProject\\main.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Generate one PDF question",
+			"type": "shell",
+			"command": "d:\\RagProject\\.venv\\Scripts\\python.exe",
+			"args": [
+				"d:\\RagProject\\main.py"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Generate PDF question",
+			"type": "shell",
+			"command": "d:\\RagProject\\.venv\\Scripts\\python.exe",
+			"args": [
+				"d:\\RagProject\\main.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run RAG answer",
+			"type": "shell",
+			"command": "d:\\RagProject\\.venv\\Scripts\\python.exe",
+			"args": [
+				"d:\\RagProject\\main.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
